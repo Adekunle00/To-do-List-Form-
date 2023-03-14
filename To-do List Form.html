@@ -1,0 +1,114 @@
+<html>
+     <head>
+     <title>My-todo-list</title>
+ <style type="text/css">
+ body {
+       width:100%;
+       background-color:lightgreen;
+       margin:10px 10px;
+      }
+      
+.div2{
+       border:3px solid lightgreen;
+       width:342px;
+       height:270px;
+       background-color:white;
+       border-radius:15px;
+       text-align:center;
+      }
+  
+.todo{
+       margin-left:20px;
+       margin-top:10px;
+       text-align:left;
+       font-weight:bold;
+       font-size:30px;
+       }
+.doubleclick{
+              font-weight:lighter;
+             }
+             
+.input{
+        text-align:left;
+      }
+      
+.pre{
+       text-align:left;
+       margin-left: 30px;
+    }
+    
+.strike{
+          display:inline-block;
+          background-color:lightgrey;
+          width:200px;
+       }
+       
+.flex{
+         display:flex;
+         justify-content:space-around;
+     }
+     
+.Add{
+        border-radius:25px;
+        background-color:DodgerBlue;
+        width:60px;
+        margin-right:auto;
+        color:white;
+        font-weight:bold;
+    }
+      
+.Clear{
+        border-radius:25px;
+        background-color:DodgerBlue;
+        color:white;
+        font-weight:bold;
+        }
+        
+.input{
+        margin-left:20px;
+       }
+       
+.empty{
+        border-radius:10px;
+        background-color:red;
+        color:white;
+        font-weight:bold;
+      }
+      
+.save{
+      border-radius:10px;
+      background-color:lightgreen;
+      color:white;
+      font-weight:bold;
+      }
+       
+  </style>    
+</head>
+
+<body>
+   <div class="div2">
+     
+         <p class="todo">My to-do list</p>
+         <p class="doubleclick">Double-click an item to mark it complete</p>
+          <div class="flex"> <input type="text"class="input"><button type="click"class="Add">Add</button></div>
+         
+            <p class="pre">  
+                        1. My<br/>
+                <strike>2.</strike><strike class="strike">&nbsp;to do</strike> <br>
+                        3. list
+            </p>
+       
+               <div class="flex">
+                <button class="Clear">Clear Completed</button><button class="empty">Empty List</button><button class="save">Save List</button>
+           </div>
+      
+     
+   </div>
+</body>
+
+
+
+
+</html>
+
+
